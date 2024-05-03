@@ -6,3 +6,4 @@ COPY target/petclinic.war /usr/local/tomcat/webapps/
 
 # Expose port 8082 (Tomcat's default port)
 EXPOSE 8082
+CMD ["catalina.sh", "run"] 
